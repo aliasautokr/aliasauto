@@ -9,7 +9,7 @@ export default function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
       {/* Background Video */}
       <video
         autoPlay
@@ -25,8 +25,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40 z-10"></div>
 
       {/* Content Container */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
-        <div className="flex items-center min-h-[calc(100vh-4rem)]">
+          <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+        <div className="flex items-center min-h-[calc(100vh-5rem)]">
           {/* Text Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -38,7 +38,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-4xl md:text-6xl font-bold text-white leading-tight bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent drop-shadow-lg"
+                  className="text-3xl md:text-5xl font-bold font-benzin text-white leading-tight bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent drop-shadow-lg"
             >
               {t('title')}
             </motion.h1>

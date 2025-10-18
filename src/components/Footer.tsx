@@ -1,16 +1,15 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Youtube } from 'lucide-react';
 
 export default function Footer() {
   const t = useTranslations('footer');
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Youtube, href: 'https://www.youtube.com/@ALIASAUTO', label: 'Youtube' },
+    { icon: Instagram, href: 'https://www.instagram.com/aliasauto.uz/', label: 'Instagram' },
+    
   ];
 
   const quickLinks = [
@@ -26,11 +25,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">AliasAuto</h3>
-            <p className="text-gray-300 mb-6 max-w-md">
-              Premium car export services to CIS countries with excellence, 
-              reliability, and unmatched customer service.
+                <h3 className="text-2xl font-bold mb-4">Alias Auto Korea</h3>
+            <p className="text-gray-300 mb-4 max-w-md">
+              {t('description')}
             </p>
+            <a 
+              href="https://www.aliasauto.kr" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-amber-500 hover:text-amber-400 transition-colors font-medium"
+            >
+              {t('website')}
+            </a>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
                 <a
@@ -47,7 +53,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+                <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index}>
@@ -64,11 +70,12 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Contact</h4>
+                <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-gray-300">
-              <p>Dubai, UAE</p>
-              <p>info@aliasauto.com</p>
-              <p>+1 (555) 123-4567</p>
+              <p>Songdo, Incheon, Korea</p>
+              <p>Almaty, Kazakhstan</p>
+              <p>aliasautokr@gmail.com</p>
+              <p>+82 10 5922 1404</p>
             </div>
           </div>
         </div>

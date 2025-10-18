@@ -15,6 +15,9 @@ const config: Config = {
       },
     },
     extend: {
+      maxWidth: {
+        '8xl': '88rem', // 1408px - wider than 7xl (80rem/1280px)
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

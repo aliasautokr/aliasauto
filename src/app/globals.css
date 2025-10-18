@@ -1,11 +1,20 @@
 @import "tailwindcss";
 
-/* Custom Benzin-Bold Font */
+/* Custom Benzin-Bold Font for Headers */
 @font-face {
   font-family: 'Benzin-Bold';
   src: url('/fonts/Benzin-Bold.woff2') format('woff2'),
        url('/fonts/Benzin-Bold.ttf') format('truetype');
   font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Custom RobotoFlex Font for Regular Text */
+@font-face {
+  font-family: 'RobotoFlex';
+  src: url('/fonts/RobotoFlex.ttf') format('truetype');
+  font-weight: 100 1000;
   font-style: normal;
   font-display: swap;
 }
@@ -64,6 +73,16 @@
   body {
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));
+    font-family: 'RobotoFlex', sans-serif;
     font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .font-benzin {
+    font-family: 'Benzin-Bold', sans-serif;
+  }
+  .font-roboto {
+    font-family: 'RobotoFlex', sans-serif;
   }
 }

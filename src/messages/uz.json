@@ -12,20 +12,112 @@
   },
   "about": {
     "title": "Biz haqimizda",
-    "description": "MDH mamlakatlariga premium avtomobillar bo'yicha ixtisoslashgan yetakchi avtomobil eksportchisi."
+    "description": "MDH mamlakatlariga premium avtomobillar bo'yicha ixtisoslashgan yetakchi avtomobil eksportchisi.",
+    "feature1": {
+      "title": "Premium avtomobillar",
+      "description": "Faqat hashamatli va premium avtomobil modellari"
+    },
+    "feature2": {
+      "title": "Xavfsiz transport",
+      "description": "To'liq sug'urtalangan va xavfsiz yetkazib berish jarayoni"
+    },
+    "feature3": {
+      "title": "MDH qamrovi",
+      "description": "MDH mamlakatlari bo'ylab keng qamrovli qamrov"
+    },
+    "feature4": {
+      "title": "Mukammallik",
+      "description": "Mukofotga sazovor mijozlar xizmati va qo'llab-quvvatlash"
+    }
+  },
+  "statistics": {
+    "title": "Bizning yutuqlarimiz",
+    "carsExported": "500+ avtomobil 12 oyda eksport qilindi",
+    "partners": "200+ hamkor MDH va Osiyo bo'ylab",
+    "growth": "+35% oylik buyurtma o'sishi"
   },
   "services": {
     "title": "Bizning xizmatlarimiz",
-    "description": "Avtomobil eksporti bo'yicha keng qamrovli yechimlar"
+    "description": "Avtomobil eksporti bo'yicha keng qamrovli yechimlar",
+    "inspection": "Avtomobil tekshiruvi va tasdiqlash",
+    "inspectionDesc": "Eksportdan oldingi puxta tekshiruv va sifat nazorati",
+    "documentation": "Hujjatlarni tayyorlash va ko'rib chiqish",
+    "documentationDesc": "Barcha eksport hujjatlari va qonuniy talablar to'liq boshqarish",
+    "logistics": "Logistika va yetkazib berishni tashkil etish",
+    "logisticsDesc": "Manzilgacha xavfsiz transport va yetkazib berishni muvofiqlashtirish",
+    "support": "Mijozlar va hamkorlar uchun qo'llab-quvvatlash",
+    "supportDesc": "Eksport jarayonining har bir bosqichida maxsus qo'llab-quvvatlash"
+  },
+  "whyChooseUs": {
+    "title": "Nega Alias Auto tanlash kerak",
+    "description": "Avtomobil eksporti sohasida bizni farqlaydigan narsa",
+    "control": {
+      "title": "Har bir bosqichda to'liq nazorat",
+      "description": "Butun eksport jarayoni bo'ylab to'liq ko'rinish va nazorat"
+    },
+    "crm": {
+      "title": "Maxsus CRM tizimi",
+      "description": "Uzluksiz aloqa va kuzatish uchun zamonaviy texnologiyalar"
+    },
+    "transparency": {
+      "title": "Halol bitimlar va shaffoflik",
+      "description": "Aniq narxlash, halol aloqa va shaffof jarayonlar"
+    },
+    "team": {
+      "title": "Xalqaro jamoa",
+      "description": "Koreya, Rossiya va Qozog'istonda tajribali mutaxassislar"
+    }
+  },
+  "deliveredCars": {
+    "title": "Bizning yetkazilgan avtomobillarimiz"
+  },
+  "testimonials": {
+    "title": "Hamkorlarimizning fikrlari",
+    "description": "Mintaqa bo'ylab avtomobil dilerlari va eksportchilar ishonadi",
+    "testimonial1": {
+      "quote": "Alias Auto bizning avtomobil eksport jarayonini uzluksiz va shaffof qildi. Ular jamoasining Koreya va MDH bozorlaridagi tajribasi tengi yo'q.",
+      "name": "Aleksey Petrov",
+      "location": "Moskva, Rossiya"
+    },
+    "testimonial2": {
+      "quote": "Boshlang'ichdan yakunigacha professional xizmat. Ular barcha hujjatlarni va logistikani mukammal boshqardilar. Juda tavsiya qilinadi!",
+      "name": "Dmitriy Kozlov",
+      "location": "Olmaota, Qozog'iston"
+    },
+    "testimonial3": {
+      "quote": "Butun eksport jarayoni davomida ajoyib qo'llab-quvvatlash. Ular CRM tizimi bizni har bir bosqichda xabardor qiladi.",
+      "name": "Sergey Volkov",
+      "location": "Sankt-Peterburg, Rossiya"
+    },
+    "testimonial4": {
+      "quote": "Jamoaning Koreya avtomobil bozorlari va MDH qoidalari haqidagi bilimi ta'sirli. Ishonchli va samarali xizmat.",
+      "name": "Nursultan Aytbayev",
+      "location": "Nur-Sulton, Qozog'iston"
+    },
+    "testimonial5": {
+      "quote": "Ajoyib aloqa va yetkazib berish. Ular Koreyadan Rossiyaga avtomobil eksportini kutganimizdan ham osonlashtirdi.",
+      "name": "Vladimir Sokolov",
+      "location": "Novosibirsk, Rossiya"
+    }
   },
   "contact": {
     "title": "Biz bilan bog'laning",
     "name": "Ism",
     "email": "Elektron pochta",
+    "phone": "Telefon raqami",
     "message": "Xabar",
-    "submit": "Xabarni yuborish"
+    "submit": "Xabarni yuborish",
+    "telegram": "Telegram orqali bog'lanish",
+    "koreaOffice": "Koreyadagi ofis",
+    "koreaAddress": "Songdo, Inchxon, Koreya Respublikasi",
+    "kazakhstanOffice": "Qozog'istondagi ofis",
+    "kazakhstanAddress": "Almalinskiy tumani, Olmaota, Qozog'iston",
+    "emailContact": "aliasautokr@gmail.com",
+    "phoneContact": "+82 10 5922 1404"
   },
   "footer": {
-    "copyright": "© 2024 AliasAuto. Barcha huquqlar himoyalangan."
+    "copyright": "© 2025 Alias Auto Korea. Barcha huquqlar himoyalangan.",
+    "website": "www.aliasauto.kr",
+    "description": "Janubiy Koreya, Rossiya va Qozog'istonda jamoalari bo'lgan avtomobillar eksporti va logistika xalqaro operatori."
   }
 }

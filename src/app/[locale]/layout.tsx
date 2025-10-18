@@ -3,10 +3,10 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import '../globals.css';
 
-// Using custom Benzin-Bold font instead of Google Fonts
-const benzinBold = {
-  className: 'font-benzin',
-  style: { fontFamily: 'Benzin-Bold, sans-serif' }
+// Using custom fonts: RobotoFlex for body text, Benzin-Bold for headers
+const fontConfig = {
+  className: 'font-roboto',
+  style: { fontFamily: 'RobotoFlex, sans-serif' }
 };
 
 const locales = ['en', 'ru', 'uz', 'kz'];
@@ -33,7 +33,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className="dark">
-      <body className={benzinBold.className} style={benzinBold.style}>
+      <body className={fontConfig.className} style={fontConfig.style}>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

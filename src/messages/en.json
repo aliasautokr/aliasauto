@@ -6,26 +6,118 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Premium Car Export to CIS",
-    "subtitle": "Luxury vehicles delivered with excellence",
-    "cta": "Explore Collection"
+    "title": "Alias Auto - International Car Export",
+    "subtitle": "Full cycle services from inspection to delivery across CIS and Asia",
+    "cta": "Start Export"
   },
   "about": {
-    "title": "About Us",
-    "description": "Leading car exporter specializing in premium vehicles to CIS countries."
+    "title": "About Alias Auto",
+    "description": "Alias Auto is an international operator in car export and logistics, uniting teams in South Korea, Russia, and Kazakhstan. We provide a full cycle of services — from car inspection and documentation to delivery and customs clearance.",
+    "feature1": {
+      "title": "Premium Vehicles",
+      "description": "Exclusively luxury and premium car models"
+    },
+    "feature2": {
+      "title": "Secure Transport",
+      "description": "Fully insured and secure delivery process"
+    },
+    "feature3": {
+      "title": "CIS Coverage",
+      "description": "Comprehensive coverage across CIS countries"
+    },
+    "feature4": {
+      "title": "Excellence",
+      "description": "Award-winning customer service and support"
+    }
+  },
+  "statistics": {
+    "title": "Our Achievements",
+    "carsExported": "500+ Cars Exported in 12 Months",
+    "partners": "200+ Partners Across CIS & Asia",
+    "growth": "+35% Monthly Order Growth"
   },
   "services": {
     "title": "Our Services",
-    "description": "Comprehensive car export solutions"
+    "description": "Complete car export solutions from Korea to CIS countries",
+    "inspection": "Vehicle Inspection & Verification",
+    "inspectionDesc": "Thorough pre-export inspection and quality verification",
+    "documentation": "Document Preparation & Review",
+    "documentationDesc": "Complete handling of all export documentation and legal requirements",
+    "logistics": "Logistics & Delivery Organization",
+    "logisticsDesc": "Secure transportation and delivery coordination to destination",
+    "support": "Client & Partner Support",
+    "supportDesc": "Dedicated support at every stage of the export process"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Alias Auto",
+    "description": "What sets us apart in the car export industry",
+    "control": {
+      "title": "Full Control at Every Stage",
+      "description": "Complete visibility and control throughout the entire export process"
+    },
+    "crm": {
+      "title": "Proprietary CRM System",
+      "description": "Advanced technology for seamless communication and tracking"
+    },
+    "transparency": {
+      "title": "Honest Transactions & Transparency",
+      "description": "Clear pricing, honest communication, and transparent processes"
+    },
+    "team": {
+      "title": "International Team",
+      "description": "Experienced professionals in Korea, Russia, and Kazakhstan"
+    }
+  },
+  "deliveredCars": {
+    "title": "Our Delivered Cars"
+  },
+  "testimonials": {
+    "title": "What Our Partners Say",
+    "description": "Trusted by car dealers and exporters across the region",
+    "testimonial1": {
+      "quote": "Alias Auto made our car export process seamless and transparent. Their team's expertise in Korean and CIS markets is unmatched.",
+      "name": "Alexei Petrov",
+      "location": "Moscow, Russia"
+    },
+    "testimonial2": {
+      "quote": "Professional service from start to finish. They handled all documentation and logistics perfectly. Highly recommended!",
+      "name": "Dmitri Kozlov",
+      "location": "Almaty, Kazakhstan"
+    },
+    "testimonial3": {
+      "quote": "Outstanding support throughout the entire export process. Their CRM system keeps us informed at every step.",
+      "name": "Sergei Volkov",
+      "location": "St. Petersburg, Russia"
+    },
+    "testimonial4": {
+      "quote": "The team's knowledge of Korean car markets and CIS regulations is impressive. Trustworthy and efficient service.",
+      "name": "Nursultan Aitbayev",
+      "location": "Nur-Sultan, Kazakhstan"
+    },
+    "testimonial5": {
+      "quote": "Excellent communication and delivery. They made exporting cars from Korea to Russia much easier than expected.",
+      "name": "Vladimir Sokolov",
+      "location": "Novosibirsk, Russia"
+    }
   },
   "contact": {
     "title": "Contact Us",
     "name": "Name",
     "email": "Email",
+    "phone": "Phone Number",
     "message": "Message",
-    "submit": "Send Message"
+    "submit": "Send Message",
+    "telegram": "Contact via Telegram",
+    "koreaOffice": "Korea Office",
+    "koreaAddress": "Songdo, Incheon, Republic of Korea",
+    "kazakhstanOffice": "Kazakhstan Office",
+    "kazakhstanAddress": "Almalinsky District, Almaty, Kazakhstan",
+    "emailContact": "aliasautokr@gmail.com",
+    "phoneContact": "+82 10 5922 1404"
   },
   "footer": {
-    "copyright": "© 2024 AliasAuto. All rights reserved."
+    "copyright": "© 2025 Alias Auto Korea. All rights reserved.",
+    "website": "www.aliasauto.kr",
+    "description": "International car export and logistics operator with teams in South Korea, Russia, and Kazakhstan."
   }
 }

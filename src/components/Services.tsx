@@ -3,31 +3,31 @@
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { Card, CardContent } from '@/components/ui/card';
-import { Truck, FileText, Headphones, Clock } from 'lucide-react';
+import { Search, FileText, Truck, Headphones } from 'lucide-react';
 
 export default function Services() {
   const t = useTranslations('services');
 
   const services = [
     {
-      icon: Truck,
-      title: 'Vehicle Sourcing',
-      description: 'Expert sourcing of premium vehicles from trusted dealers and auctions worldwide.'
+      icon: Search,
+      title: t('inspection'),
+      description: t('inspectionDesc')
     },
     {
       icon: FileText,
-      title: 'Documentation',
-      description: 'Complete handling of all export documentation, customs clearance, and legal requirements.'
+      title: t('documentation'),
+      description: t('documentationDesc')
+    },
+    {
+      icon: Truck,
+      title: t('logistics'),
+      description: t('logisticsDesc')
     },
     {
       icon: Headphones,
-      title: 'Customer Support',
-      description: '24/7 multilingual customer support throughout the entire export process.'
-    },
-    {
-      icon: Clock,
-      title: 'Fast Delivery',
-      description: 'Efficient logistics and delivery to your destination with real-time tracking.'
+      title: t('support'),
+      description: t('supportDesc')
     }
   ];
 
@@ -41,7 +41,7 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 drop-shadow-lg">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 drop-shadow-lg">
             {t('title')}
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">

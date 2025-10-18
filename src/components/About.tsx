@@ -11,23 +11,23 @@ export default function About() {
   const features = [
     {
       icon: Car,
-      title: 'Premium Vehicles',
-      description: 'Exclusively luxury and premium car models'
+      title: t('feature1.title'),
+      description: t('feature1.description')
     },
     {
       icon: Shield,
-      title: 'Secure Transport',
-      description: 'Fully insured and secure delivery process'
+      title: t('feature2.title'),
+      description: t('feature2.description')
     },
     {
       icon: Globe,
-      title: 'CIS Coverage',
-      description: 'Comprehensive coverage across CIS countries'
+      title: t('feature3.title'),
+      description: t('feature3.description')
     },
     {
       icon: Award,
-      title: 'Excellence',
-      description: 'Award-winning customer service and support'
+      title: t('feature4.title'),
+      description: t('feature4.description')
     }
   ];
 
@@ -41,7 +41,7 @@ export default function About() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 drop-shadow-lg">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 drop-shadow-lg">
             {t('title')}
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
