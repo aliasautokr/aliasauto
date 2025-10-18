@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Globe } from 'lucide-react';
@@ -17,7 +17,6 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const t = useTranslations('nav');
-  // const locale = useLocale(); // Available if needed for future features
   const router = useRouter();
   const pathname = usePathname();
 

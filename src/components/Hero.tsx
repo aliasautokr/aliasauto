@@ -3,22 +3,36 @@
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
-import Car3D from './Car3D';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-zinc-950 via-black to-zinc-900 pt-16 relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      >
+        <source src="/videos/porshe.mp4" type="video/mp4" />
+      </video>
+
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/40 z-10"></div>
+
+      {/* Content Container */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+        <div className="flex items-center min-h-[calc(100vh-4rem)]">
           {/* Text Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="space-y-8"
+            className="max-w-2xl space-y-8"
           >
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
@@ -33,7 +47,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-xl text-gray-300 leading-relaxed"
+              className="text-xl text-gray-200 leading-relaxed drop-shadow-lg"
             >
               {t('subtitle')}
             </motion.p>
@@ -52,16 +66,6 @@ export default function Hero() {
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </motion.div>
-          </motion.div>
-
-          {/* 3D Car Model */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="flex justify-center relative z-0"
-          >
-            <Car3D />
           </motion.div>
         </div>
       </div>
