@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Premium Car Export to CIS",
+    "subtitle": "Luxury vehicles delivered with excellence",
+    "cta": "Explore Collection"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Leading car exporter specializing in premium vehicles to CIS countries."
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Comprehensive car export solutions"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message"
+  },
+  "footer": {
+    "copyright": "© 2024 AliasAuto. All rights reserved."
+  }
+}

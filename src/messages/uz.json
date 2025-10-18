@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "services": "Xizmatlar",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "title": "MDH mamlakatlariga premium avtomobil eksporti",
+    "subtitle": "Hashamatli avtomobillar mukammal yetkazib berish bilan",
+    "cta": "Kolleksiyani ko'rish"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "description": "MDH mamlakatlariga premium avtomobillar bo'yicha ixtisoslashgan yetakchi avtomobil eksportchisi."
+  },
+  "services": {
+    "title": "Bizning xizmatlarimiz",
+    "description": "Avtomobil eksporti bo'yicha keng qamrovli yechimlar"
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "name": "Ism",
+    "email": "Elektron pochta",
+    "message": "Xabar",
+    "submit": "Xabarni yuborish"
+  },
+  "footer": {
+    "copyright": "© 2024 AliasAuto. Barcha huquqlar himoyalangan."
+  }
+}
