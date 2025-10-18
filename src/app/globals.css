@@ -3,7 +3,7 @@
 /* Custom Benzin-Bold Font for Headers */
 @font-face {
   font-family: 'Benzin-Bold';
-  src: url('/fonts/Benzin-Bold.woff2') format('woff2'),
+  src: 
        url('/fonts/Benzin-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
