@@ -97,17 +97,17 @@ export default function Navbar() {
               </Button>
               
               {isLangOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-gray-900 rounded-md shadow-lg border border-gray-700 z-50">
+                <div className="absolute right-0 mt-2 w-48 bg-black/95 backdrop-blur-lg rounded-lg shadow-2xl shadow-black/50 border border-white/10 z-50 transition-all duration-300 ease-in-out animate-in fade-in-0 slide-in-from-top-2">
                   {languages.map((lang) => (
                     <button
                       key={lang.code}
                       onClick={() => handleLanguageChange(lang.code)}
-                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-800 flex items-center space-x-2 text-white ${
-                        lang.code === currentLocale ? 'bg-gray-800' : ''
+                      className={`w-full text-left px-4 py-3 text-sm hover:bg-white/5 flex items-center space-x-3 text-white transition-all duration-200 ease-in-out first:rounded-t-lg last:rounded-b-lg ${
+                        lang.code === currentLocale ? 'bg-white/10' : ''
                       }`}
                     >
-                      <span>{lang.flag}</span>
-                      <span>{lang.name}</span>
+                      <span className="text-lg">{lang.flag}</span>
+                      <span className="font-medium">{lang.name}</span>
                     </button>
                   ))}
                 </div>

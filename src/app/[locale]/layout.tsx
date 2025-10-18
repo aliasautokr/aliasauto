@@ -1,13 +1,13 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Manrope } from 'next/font/google';
 import '../globals.css';
 
-const manrope = Manrope({
-  subsets: ['latin'],
-  variable: '--font-manrope',
-});
+// Using custom Benzin-Bold font instead of Google Fonts
+const benzinBold = {
+  className: 'font-benzin',
+  style: { fontFamily: 'Benzin-Bold, sans-serif' }
+};
 
 const locales = ['en', 'ru', 'uz', 'kz'];
 
@@ -33,7 +33,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className="dark">
-      <body className={manrope.className}>
+      <body className={benzinBold.className} style={benzinBold.style}>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

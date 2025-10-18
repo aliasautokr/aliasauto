@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+/* Custom Benzin-Bold Font */
+@font-face {
+  font-family: 'Benzin-Bold';
+  src: url('/fonts/Benzin-Bold.woff2') format('woff2'),
+       url('/fonts/Benzin-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
