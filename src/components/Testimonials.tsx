@@ -69,6 +69,7 @@ export default function Testimonials() {
                     </svg>
                   </div>
                   <blockquote className="text-gray-300 mb-6 italic text-lg leading-relaxed">
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     "{testimonial.quote}"
                   </blockquote>
                   <div className="border-t border-white/10 pt-4">
