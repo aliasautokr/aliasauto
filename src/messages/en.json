@@ -6,13 +6,13 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "ALIAS AUTO KOREA International Car Export",
-    "subtitle": "Full cycle services from inspection to delivery across CIS and Asia",
-    "cta": "Start Export"
+    "title": "Premium Car Export to CIS",
+    "subtitle": "Luxury cars with premium class delivery",
+    "cta": "Explore Collection"
   },
   "about": {
-    "title": "About ALIAS AUTO KOREA",
-    "description": "ALIAS AUTO KOREA is an international operator in car export and logistics, uniting teams in South Korea, Russia, and Kazakhstan. We provide a full cycle of services — from car inspection and documentation to delivery and customs clearance.",
+    "title": "About Us",
+    "description": "Leading car exporter specializing in premium cars to CIS countries.",
     "feature1": {
       "title": "Premium Vehicles",
       "description": "Exclusively luxury and premium car models"
@@ -38,14 +38,14 @@
   },
   "services": {
     "title": "Our Services",
-    "description": "Complete car export solutions from Korea to CIS countries",
+    "description": "Comprehensive car export solutions",
     "inspection": "Vehicle Inspection & Verification",
-    "inspectionDesc": "Thorough pre-export inspection and quality verification",
-    "documentation": "Document Preparation & Review",
-    "documentationDesc": "Complete handling of all export documentation and legal requirements",
+    "inspectionDesc": "Thorough pre-export inspection and quality control",
+    "documentation": "Document Preparation & Processing",
+    "documentationDesc": "Complete management of all export documentation and legal requirements",
     "logistics": "Logistics & Delivery Organization",
     "logisticsDesc": "Secure transportation and delivery coordination to destination",
-    "support": "Client & Partner Support",
+    "support": "Customer & Partner Support",
     "supportDesc": "Dedicated support at every stage of the export process"
   },
   "whyChooseUs": {
@@ -122,7 +122,7 @@
     "phoneContact": "+82 10 5922 1404"
   },
   "footer": {
-    "copyright": "© 2025 ALIAS AUTO KOREA. All rights reserved.",
+    "copyright": "© 2025 ALIAS AUTO KOREA. All rights protected.",
     "website": "www.aliasauto.kr",
     "description": "International car export and logistics operator with teams in South Korea, Russia, and Kazakhstan.",
     "quickLinksTitle": "Quick Links",

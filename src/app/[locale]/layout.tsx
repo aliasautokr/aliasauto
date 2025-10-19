@@ -9,7 +9,7 @@ const fontConfig = {
   style: { fontFamily: 'RobotoFlex, sans-serif' }
 };
 
-const locales = ['en', 'ru', 'uz', 'kz'];
+const locales = ['en', 'ru', 'uz', 'kz', 'ko'];
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

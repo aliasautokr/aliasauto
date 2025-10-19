@@ -7,7 +7,7 @@
   },
   "hero": {
     "title": "MDH mamlakatlariga premium avtomobil eksporti",
-    "subtitle": "Hashamatli avtomobillar mukammal yetkazib berish bilan",
+    "subtitle": "Hashamatli avtomobillar premium sinf yetkazib berish bilan",
     "cta": "Kolleksiyani ko'rish"
   },
   "about": {
@@ -18,7 +18,7 @@
       "description": "Faqat hashamatli va premium avtomobil modellari"
     },
     "feature2": {
-      "title": "Xavfsiz transport",
+      "title": "Xavfsiz tashish",
       "description": "To'liq sug'urtalangan va xavfsiz yetkazib berish jarayoni"
     },
     "feature3": {
@@ -41,7 +41,7 @@
     "description": "Avtomobil eksporti bo'yicha keng qamrovli yechimlar",
     "inspection": "Avtomobil tekshiruvi va tasdiqlash",
     "inspectionDesc": "Eksportdan oldingi puxta tekshiruv va sifat nazorati",
-    "documentation": "Hujjatlarni tayyorlash va ko'rib chiqish",
+    "documentation": "Hujjatlarni tayyorlash va qayta ishlash",
     "documentationDesc": "Barcha eksport hujjatlari va qonuniy talablar to'liq boshqarish",
     "logistics": "Logistika va yetkazib berishni tashkil etish",
     "logisticsDesc": "Manzilgacha xavfsiz transport va yetkazib berishni muvofiqlashtirish",

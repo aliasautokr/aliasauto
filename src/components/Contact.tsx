@@ -39,8 +39,13 @@ export default function Contact() {
   };
 
   const sendToTelegram = async (message: string) => {
-    const botToken = '8485735814:AAF3TFdntMLdMCtPBeAdR_DChwOC_D1mkhc';
-    const chatId = '-4885638665';
+    const botToken = process.env.NEXT_PUBLIC_TELEGRAM_BOT_TOKEN;
+    const chatId = process.env.NEXT_PUBLIC_TELEGRAM_CHAT_ID;
+    
+    if (!botToken || !chatId) {
+      throw new Error('Telegram configuration is missing. Please check environment variables.');
+    }
+    
     const telegramApiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
     
     try {

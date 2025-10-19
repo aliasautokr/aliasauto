@@ -12,6 +12,7 @@ const languages = [
   { code: 'ru', name: 'Русский', flag: '🇷🇺' },
   { code: 'uz', name: 'O\'zbek', flag: '🇺🇿' },
   { code: 'kz', name: 'Қазақ', flag: '🇰🇿' },
+  { code: 'ko', name: '한국어', flag: '🇰🇷' },
 ];
 
 export default function Navbar() {
