@@ -6,8 +6,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
-import { useState } from 'react';
+import { Mail, Phone, MapPin, MessageCircle, CheckCircle, X } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export default function Contact() {
   const t = useTranslations('contact');
@@ -18,6 +18,17 @@ export default function Contact() {
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showSuccessDialog, setShowSuccessDialog] = useState(false);
+
+  // Auto-close success dialog after 3 seconds
+  useEffect(() => {
+    if (showSuccessDialog) {
+      const timer = setTimeout(() => {
+        setShowSuccessDialog(false);
+      }, 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [showSuccessDialog]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -85,7 +96,7 @@ ${formData.message}
         message: ''
       });
       
-      alert('Message sent successfully! We will contact you soon.');
+      setShowSuccessDialog(true);
     } catch (error) {
       console.error('Error submitting form:', error);
       alert('Failed to send message. Please try again or contact us directly.');
@@ -97,13 +108,13 @@ ${formData.message}
   const contactInfo = [
     {
       icon: Mail,
-      title: 'Email',
+      title: t('email'),
       value: t('emailContact'),
       href: `mailto:${t('emailContact')}`
     },
     {
       icon: Phone,
-      title: 'Phone',
+      title: t('phone'),
       value: t('phoneContact'),
       href: `tel:${t('phoneContact').replace(/\s/g, '')}`
     },
@@ -155,7 +166,7 @@ ${formData.message}
                       id="name"
                       name="name"
                       type="text"
-                      placeholder="Your name"
+                      placeholder={t('namePlaceholder')}
                       value={formData.name}
                       onChange={handleInputChange}
                       required
@@ -171,7 +182,7 @@ ${formData.message}
                       id="email"
                       name="email"
                       type="email"
-                      placeholder="your@email.com"
+                      placeholder={t('emailPlaceholder')}
                       value={formData.email}
                       onChange={handleInputChange}
                       required
@@ -187,7 +198,7 @@ ${formData.message}
                       id="phone"
                       name="phone"
                       type="tel"
-                      placeholder="Your phone number"
+                      placeholder={t('phonePlaceholder')}
                       value={formData.phone}
                       onChange={handleInputChange}
                       required
@@ -202,7 +213,7 @@ ${formData.message}
                     <Textarea
                       id="message"
                       name="message"
-                      placeholder="Your message..."
+                      placeholder={t('messagePlaceholder')}
                       rows={5}
                       value={formData.message}
                       onChange={handleInputChange}
@@ -277,6 +288,54 @@ ${formData.message}
           </motion.div>
         </div>
       </div>
+
+      {/* Success Dialog */}
+      {showSuccessDialog && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8, y: 20 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.8, y: 20 }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+            className="relative bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl p-8 mx-4 max-w-md w-full shadow-2xl shadow-black/50"
+          >
+            {/* Close button */}
+            <button
+              onClick={() => setShowSuccessDialog(false)}
+              className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors"
+            >
+              <X className="h-5 w-5" />
+            </button>
+
+            {/* Success icon */}
+            <div className="flex justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center shadow-lg shadow-green-500/25">
+                <CheckCircle className="h-8 w-8 text-white" />
+              </div>
+            </div>
+
+            {/* Success message */}
+            <div className="text-center">
+              <h3 className="text-xl font-semibold text-white mb-2">
+                {t('successTitle')}
+              </h3>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                {t('successMessage')}
+              </p>
+            </div>
+
+            {/* Progress bar */}
+            <div className="mt-6 bg-white/10 rounded-full h-1 overflow-hidden">
+              <motion.div
+                initial={{ width: "100%" }}
+                animate={{ width: "0%" }}
+                transition={{ duration: 5, ease: "linear" }}
+                className="h-full bg-gradient-to-r from-green-500 to-emerald-600"
+              />
+            </div>
+          </motion.div>
+        </div>
+      )}
     </section>
   );
 }

@@ -9,7 +9,7 @@ export default function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
+    <section id="home" className="min-h-screen pt-20 relative overflow-hidden">
       {/* Background Video */}
       <video
         autoPlay
@@ -26,13 +26,13 @@ export default function Hero() {
 
       {/* Content Container */}
           <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
-        <div className="flex items-center min-h-[calc(100vh-5rem)]">
+        <div className="flex items-center min-h-[calc(100vh-5rem)] justify-start">
           {/* Text Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-2xl space-y-8"
+            className="max-w-2xl space-y-8 ml-8"
           >
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
