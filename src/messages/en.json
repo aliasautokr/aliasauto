@@ -6,13 +6,13 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Alias Auto - International Car Export",
+    "title": "ALIAS AUTO KOREA - International Car Export",
     "subtitle": "Full cycle services from inspection to delivery across CIS and Asia",
     "cta": "Start Export"
   },
   "about": {
-    "title": "About Alias Auto",
-    "description": "Alias Auto is an international operator in car export and logistics, uniting teams in South Korea, Russia, and Kazakhstan. We provide a full cycle of services — from car inspection and documentation to delivery and customs clearance.",
+    "title": "About ALIAS AUTO KOREA",
+    "description": "ALIAS AUTO KOREA is an international operator in car export and logistics, uniting teams in South Korea, Russia, and Kazakhstan. We provide a full cycle of services — from car inspection and documentation to delivery and customs clearance.",
     "feature1": {
       "title": "Premium Vehicles",
       "description": "Exclusively luxury and premium car models"
@@ -33,7 +33,7 @@
   "statistics": {
     "title": "Our Achievements",
     "carsExported": "500+ Cars Exported in 12 Months",
-    "partners": "200+ Partners Across CIS & Asia",
+    "partners": "20+ Partners Across CIS & Asia",
     "growth": "+35% Monthly Order Growth"
   },
   "services": {
@@ -49,7 +49,7 @@
     "supportDesc": "Dedicated support at every stage of the export process"
   },
   "whyChooseUs": {
-    "title": "Why Choose Alias Auto",
+    "title": "Why Choose ALIAS AUTO KOREA",
     "description": "What sets us apart in the car export industry",
     "control": {
       "title": "Full Control at Every Stage",
@@ -75,7 +75,7 @@
     "title": "What Our Partners Say",
     "description": "Trusted by car dealers and exporters across the region",
     "testimonial1": {
-      "quote": "Alias Auto made our car export process seamless and transparent. Their team's expertise in Korean and CIS markets is unmatched.",
+      "quote": "ALIAS AUTO KOREA made our car export process seamless and transparent. Their team's expertise in Korean and CIS markets is unmatched.",
       "name": "Alexei Petrov",
       "location": "Moscow, Russia"
     },
@@ -116,8 +116,16 @@
     "phoneContact": "+82 10 5922 1404"
   },
   "footer": {
-    "copyright": "© 2025 Alias Auto Korea. All rights reserved.",
+    "copyright": "© 2025 ALIAS AUTO KOREA. All rights reserved.",
     "website": "www.aliasauto.kr",
-    "description": "International car export and logistics operator with teams in South Korea, Russia, and Kazakhstan."
+    "description": "International car export and logistics operator with teams in South Korea, Russia, and Kazakhstan.",
+    "quickLinksTitle": "Quick Links",
+    "contactTitle": "Contact",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "koreaLocation": "Songdo, Incheon, Korea",
+    "kazakhstanLocation": "Almaty, Kazakhstan"
   }
 }

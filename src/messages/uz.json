@@ -33,7 +33,7 @@
   "statistics": {
     "title": "Bizning yutuqlarimiz",
     "carsExported": "500+ avtomobil 12 oyda eksport qilindi",
-    "partners": "200+ hamkor MDH va Osiyo bo'ylab",
+    "partners": "20+ hamkor MDH va Osiyo bo'ylab",
     "growth": "+35% oylik buyurtma o'sishi"
   },
   "services": {
@@ -49,7 +49,7 @@
     "supportDesc": "Eksport jarayonining har bir bosqichida maxsus qo'llab-quvvatlash"
   },
   "whyChooseUs": {
-    "title": "Nega Alias Auto tanlash kerak",
+    "title": "Nega ALIAS AUTO KOREA tanlash kerak",
     "description": "Avtomobil eksporti sohasida bizni farqlaydigan narsa",
     "control": {
       "title": "Har bir bosqichda to'liq nazorat",
@@ -75,7 +75,7 @@
     "title": "Hamkorlarimizning fikrlari",
     "description": "Mintaqa bo'ylab avtomobil dilerlari va eksportchilar ishonadi",
     "testimonial1": {
-      "quote": "Alias Auto bizning avtomobil eksport jarayonini uzluksiz va shaffof qildi. Ular jamoasining Koreya va MDH bozorlaridagi tajribasi tengi yo'q.",
+      "quote": "ALIAS AUTO KOREA bizning avtomobil eksport jarayonini uzluksiz va shaffof qildi. Ular jamoasining Koreya va MDH bozorlaridagi tajribasi tengi yo'q.",
       "name": "Aleksey Petrov",
       "location": "Moskva, Rossiya"
     },
@@ -116,8 +116,16 @@
     "phoneContact": "+82 10 5922 1404"
   },
   "footer": {
-    "copyright": "© 2025 Alias Auto Korea. Barcha huquqlar himoyalangan.",
+    "copyright": "© 2025 ALIAS AUTO KOREA. Barcha huquqlar himoyalangan.",
     "website": "www.aliasauto.kr",
-    "description": "Janubiy Koreya, Rossiya va Qozog'istonda jamoalari bo'lgan avtomobillar eksporti va logistika xalqaro operatori."
+    "description": "Janubiy Koreya, Rossiya va Qozog'istonda jamoalari bo'lgan avtomobillar eksporti va logistika xalqaro operatori.",
+    "quickLinksTitle": "Tezkor havolalar",
+    "contactTitle": "Aloqa",
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "services": "Xizmatlar",
+    "contact": "Aloqa",
+    "koreaLocation": "Songdo, Inchxon, Koreya",
+    "kazakhstanLocation": "Olmaota, Qozog'iston"
   }
 }

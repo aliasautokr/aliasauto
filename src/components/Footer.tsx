@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Facebook, Twitter, Instagram, Linkedin, Youtube } from 'lucide-react';
+import { Instagram, Youtube } from 'lucide-react';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -13,10 +13,10 @@ export default function Footer() {
   ];
 
   const quickLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Contact', href: '#contact' },
+    { name: t('home'), href: '#home' },
+    { name: t('about'), href: '#about' },
+    { name: t('services'), href: '#services' },
+    { name: t('contact'), href: '#contact' },
   ];
 
   return (
@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-                <h3 className="text-2xl font-bold mb-4">Alias Auto Korea</h3>
+                <h3 className="text-2xl font-bold mb-4">ALIAS AUTO KOREA</h3>
             <p className="text-gray-300 mb-4 max-w-md">
               {t('description')}
             </p>
@@ -53,7 +53,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-                <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+                <h4 className="text-lg font-semibold mb-4">{t('quickLinksTitle')}</h4>
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index}>
@@ -70,10 +70,10 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-                <h4 className="text-lg font-semibold mb-4">Contact</h4>
+                <h4 className="text-lg font-semibold mb-4">{t('contactTitle')}</h4>
             <div className="space-y-2 text-gray-300">
-              <p>Songdo, Incheon, Korea</p>
-              <p>Almaty, Kazakhstan</p>
+              <p>{t('koreaLocation')}</p>
+              <p>{t('kazakhstanLocation')}</p>
               <p>aliasautokr@gmail.com</p>
               <p>+82 10 5922 1404</p>
             </div>
