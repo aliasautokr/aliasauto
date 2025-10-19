@@ -17,7 +17,7 @@ export default function Statistics() {
       label: t('carsExported')
     },
     {
-      number: 200,
+      number: 20,
       suffix: '+',
       label: t('partners')
     },
