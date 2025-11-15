@@ -3,7 +3,8 @@
     "home": "Bosh sahifa",
     "about": "Biz haqimizda",
     "services": "Xizmatlar",
-    "contact": "Aloqa"
+    "contact": "Aloqa",
+    "collections": "Kolleksiya"
   },
   "hero": {
     "title": "MDH mamlakatlariga premium avtomobil eksporti",
@@ -133,5 +134,48 @@
     "contact": "Aloqa",
     "koreaLocation": "Songdo, Inchxon, Koreya",
     "kazakhstanLocation": "Olmaota, Qozog'iston"
+  },
+  "collections": {
+    "title": "Bizning kolleksiyamiz",
+    "description": "Premium avtomobil kolleksiyamizni ko'rib chiqing",
+    "noCollections": "Hozirda kolleksiyalar mavjud emas.",
+    "error": "Kolleksiyalarni yuklashda xatolik",
+    "errorDescription": "Kolleksiyalarni yuklab bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring.",
+    "page": "{current} / {total} sahifa",
+    "previous": "Oldingi",
+    "next": "Keyingi",
+    "back": "Kolleksiyalarga qaytish",
+    "specs": "Texnik xususiyatlar",
+    "descriptionLabel": "Tavsif",
+    "additionalOptions": "Qo'shimcha opsiyalar",
+    "inspectionHistory": "Tekshiruv tarixi",
+    "noAccidents": "Baxtsiz hodisalar qayd etilmagan",
+    "accidents": "Baxtsiz hodisalar tarixi bor",
+    "maintenanceHistory": "Texnik xizmat tarixi",
+    "noMaintenanceHistory": "Texnik xizmat tarixi mavjud emas",
+    "viewDetails": "Batafsil"
+  },
+  "inspection": {
+    "title": "Tekshiruv hisoboti",
+    "reportNumber": "Hisobot raqami",
+    "inspector": "Tekshiruvchi",
+    "inspectionDate": "Tekshiruv sanasi",
+    "vehicleInfo": "Transport vositas haqida ma'lumot",
+    "make": "Marka",
+    "model": "Model",
+    "year": "Yil",
+    "vin": "VIN",
+    "licensePlate": "Davlat raqami",
+    "inspectionImages": "Tekshiruv rasmlari",
+    "summary": "Xulosa",
+    "status": "Holat",
+    "passed": "O'tdi",
+    "failed": "O'tmadi",
+    "pending": "Kutilmoqda",
+    "notes": "Eslatmalar",
+    "noImages": "Rasmlar mavjud emas",
+    "back": "Orqaga",
+    "downloadReport": "Hisobotni yuklash",
+    "printReport": "Hisobotni chop etish"
   }
 }

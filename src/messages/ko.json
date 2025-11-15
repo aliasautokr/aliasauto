@@ -3,7 +3,8 @@
     "home": "홈",
     "about": "회사소개",
     "services": "서비스",
-    "contact": "연락처"
+    "contact": "연락처",
+    "collections": "컬렉션"
   },
   "hero": {
     "title": "CIS 프리미엄 자동차 수출",
@@ -133,5 +134,48 @@
     "contact": "연락처",
     "koreaLocation": "송도, 인천, 한국",
     "kazakhstanLocation": "알마티, 카자흐스탄"
+  },
+  "collections": {
+    "title": "우리의 컬렉션",
+    "description": "프리미엄 자동차 컬렉션을 둘러보세요",
+    "noCollections": "현재 컬렉션을 사용할 수 없습니다.",
+    "error": "컬렉션 로드 오류",
+    "errorDescription": "컬렉션을 로드할 수 없습니다. 나중에 다시 시도해 주세요.",
+    "page": "{current} / {total} 페이지",
+    "previous": "이전",
+    "next": "다음",
+    "back": "컬렉션으로 돌아가기",
+    "specs": "사양",
+    "descriptionLabel": "설명",
+    "additionalOptions": "추가 옵션",
+    "inspectionHistory": "검사 이력",
+    "noAccidents": "사고 없음",
+    "accidents": "사고 이력 있음",
+    "maintenanceHistory": "유지보수 이력",
+    "noMaintenanceHistory": "유지보수 이력 없음",
+    "viewDetails": "자세히 보기"
+  },
+  "inspection": {
+    "title": "검사 보고서",
+    "reportNumber": "보고서 번호",
+    "inspector": "검사관",
+    "inspectionDate": "검사 날짜",
+    "vehicleInfo": "차량 정보",
+    "make": "제조사",
+    "model": "모델",
+    "year": "연식",
+    "vin": "VIN",
+    "licensePlate": "번호판",
+    "inspectionImages": "검사 이미지",
+    "summary": "요약",
+    "status": "상태",
+    "passed": "합격",
+    "failed": "불합격",
+    "pending": "대기 중",
+    "notes": "비고",
+    "noImages": "이미지 없음",
+    "back": "뒤로",
+    "downloadReport": "보고서 다운로드",
+    "printReport": "보고서 인쇄"
   }
 }

@@ -3,7 +3,8 @@
     "home": "Басты бет",
     "about": "Біз туралы",
     "services": "Қызметтер",
-    "contact": "Байланыс"
+    "contact": "Байланыс",
+    "collections": "Жинақ"
   },
   "hero": {
     "title": "ТМД елдеріне премиум автомобиль экспорты",
@@ -133,5 +134,48 @@
     "contact": "Байланыс",
     "koreaLocation": "Сонгдо, Инчхон, Корея",
     "kazakhstanLocation": "Алматы, Қазақстан"
+  },
+  "collections": {
+    "title": "Біздің жинақ",
+    "description": "Premium автомобиль жинағымызды қараңыз",
+    "noCollections": "Қазіргі уақытта жинақтар қолжетімсіз.",
+    "error": "Жинақтарды жүктеу қатесі",
+    "errorDescription": "Жинақтарды жүктей алмады. Кейінірек қайта көріңіз.",
+    "page": "{current} / {total} бет",
+    "previous": "Алдыңғы",
+    "next": "Келесі",
+    "back": "Жинақтарға оралу",
+    "specs": "Техникалық сипаттамалар",
+    "descriptionLabel": "Сипаттама",
+    "additionalOptions": "Қосымша опциялар",
+    "inspectionHistory": "Тексеру тарихы",
+    "noAccidents": "Апаттар есептелмеген",
+    "accidents": "Апаттар тарихы бар",
+    "maintenanceHistory": "Техникалық қызмет тарихы",
+    "noMaintenanceHistory": "Техникалық қызмет тарихы қолжетімсіз",
+    "viewDetails": "Толығырақ"
+  },
+  "inspection": {
+    "title": "Тексеру есебі",
+    "reportNumber": "Есеп нөмірі",
+    "inspector": "Тексеруші",
+    "inspectionDate": "Тексеру күні",
+    "vehicleInfo": "Көлік туралы ақпарат",
+    "make": "Марка",
+    "model": "Модель",
+    "year": "Жыл",
+    "vin": "VIN",
+    "licensePlate": "Мемлекеттік нөмір",
+    "inspectionImages": "Тексеру фотосуреттері",
+    "summary": "Қорытынды",
+    "status": "Статус",
+    "passed": "Өтті",
+    "failed": "Өтпеді",
+    "pending": "Күтуде",
+    "notes": "Ескертпелер",
+    "noImages": "Фотосуреттер қолжетімсіз",
+    "back": "Артқа",
+    "downloadReport": "Есепті жүктеу",
+    "printReport": "Есепті басып шығару"
   }
 }

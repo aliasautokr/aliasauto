@@ -2,11 +2,17 @@
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import { usePathname } from 'next/navigation';
+import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const t = useTranslations('hero');
+  const pathname = usePathname();
+  
+  // Extract locale from pathname
+  const locale = pathname.split('/')[1] || 'en';
 
   return (
     <section id="home" className="min-h-screen pt-20 relative overflow-hidden">
@@ -57,14 +63,15 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <Button 
-                size="lg" 
-                className="bg-gradient-to-r from-amber-500 to-orange-600 text-white hover:from-amber-600 hover:to-orange-700 transition-all duration-300 group shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 hover:scale-105"
-                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                {t('cta')}
-                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              <Link href={`/${locale}/collections`}>
+                <Button 
+                  size="lg" 
+                  className="bg-gradient-to-r from-amber-500 to-orange-600 text-white hover:from-amber-600 hover:to-orange-700 transition-all duration-300 group shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 hover:scale-105"
+                >
+                  {t('cta')}
+                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
             </motion.div>
           </motion.div>
         </div>

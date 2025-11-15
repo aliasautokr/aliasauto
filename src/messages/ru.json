@@ -3,7 +3,8 @@
     "home": "Главная",
     "about": "О нас",
     "services": "Услуги",
-    "contact": "Контакты"
+    "contact": "Контакты",
+    "collections": "Коллекция"
   },
   "hero": {
     "title": "Премиум экспорт автомобилей в СНГ",
@@ -133,5 +134,48 @@
     "contact": "Контакты",
     "koreaLocation": "Сонгдо, Инчхон, Корея",
     "kazakhstanLocation": "Алматы, Казахстан"
+  },
+  "collections": {
+    "title": "Наша коллекция",
+    "description": "Просмотрите нашу премиальную коллекцию автомобилей",
+    "noCollections": "В данный момент коллекции недоступны.",
+    "error": "Ошибка загрузки коллекций",
+    "errorDescription": "Не удалось загрузить коллекции. Пожалуйста, попробуйте позже.",
+    "page": "Страница {current} из {total}",
+    "previous": "Предыдущая",
+    "next": "Следующая",
+    "back": "Назад к коллекциям",
+    "specs": "Характеристики",
+    "descriptionLabel": "Описание",
+    "additionalOptions": "Дополнительные опции",
+    "inspectionHistory": "История осмотра",
+    "noAccidents": "Аварий не зарегистрировано",
+    "accidents": "Есть история аварий",
+    "maintenanceHistory": "История обслуживания",
+    "noMaintenanceHistory": "История обслуживания недоступна",
+    "viewDetails": "Подробнее"
+  },
+  "inspection": {
+    "title": "Отчет об осмотре",
+    "reportNumber": "Номер отчета",
+    "inspector": "Инспектор",
+    "inspectionDate": "Дата осмотра",
+    "vehicleInfo": "Информация о транспортном средстве",
+    "make": "Марка",
+    "model": "Модель",
+    "year": "Год",
+    "vin": "VIN",
+    "licensePlate": "Государственный номер",
+    "inspectionImages": "Фотографии осмотра",
+    "summary": "Резюме",
+    "status": "Статус",
+    "passed": "Пройден",
+    "failed": "Не пройден",
+    "pending": "Ожидается",
+    "notes": "Примечания",
+    "noImages": "Фотографии недоступны",
+    "back": "Назад",
+    "downloadReport": "Скачать отчет",
+    "printReport": "Печать отчета"
   }
 }

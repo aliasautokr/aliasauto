@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['cdn.jsdelivr.net'],
+    domains: ['cdn.jsdelivr.net', 'aliasauto-collection.s3.ap-northeast-2.amazonaws.com'],
   },
   typescript: {
     ignoreBuildErrors: false,

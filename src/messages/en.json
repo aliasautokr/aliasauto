@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
-    "contact": "Contact"
+    "contact": "Contact",
+    "collections": "Collections"
   },
   "hero": {
     "title": "Premium Car Export to CIS",
@@ -133,5 +134,48 @@
     "contact": "Contact",
     "koreaLocation": "Songdo, Incheon, Korea",
     "kazakhstanLocation": "Almaty, Kazakhstan"
+  },
+  "collections": {
+    "title": "Our Collection",
+    "description": "Browse our premium vehicle collection",
+    "noCollections": "No collections available at the moment.",
+    "error": "Error Loading Collections",
+    "errorDescription": "Failed to load collections. Please try again later.",
+    "page": "Page {current} of {total}",
+    "previous": "Previous",
+    "next": "Next",
+    "back": "Back to Collections",
+    "specs": "Specifications",
+    "descriptionLabel": "Description",
+    "additionalOptions": "Additional Options",
+    "inspectionHistory": "Inspection History",
+    "noAccidents": "No accidents reported",
+    "accidents": "Has accident history",
+    "maintenanceHistory": "Maintenance History",
+    "noMaintenanceHistory": "No maintenance history available",
+    "viewDetails": "View Details"
+  },
+  "inspection": {
+    "title": "Inspection Report",
+    "reportNumber": "Report Number",
+    "inspector": "Inspector",
+    "inspectionDate": "Inspection Date",
+    "vehicleInfo": "Vehicle Information",
+    "make": "Make",
+    "model": "Model",
+    "year": "Year",
+    "vin": "VIN",
+    "licensePlate": "License Plate",
+    "inspectionImages": "Inspection Images",
+    "summary": "Summary",
+    "status": "Status",
+    "passed": "Passed",
+    "failed": "Failed",
+    "pending": "Pending",
+    "notes": "Notes",
+    "noImages": "No images available",
+    "back": "Back",
+    "downloadReport": "Download Report",
+    "printReport": "Print Report"
   }
 }
