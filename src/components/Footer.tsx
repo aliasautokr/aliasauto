@@ -8,7 +8,7 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: Youtube, href: 'https://www.youtube.com/@ALIASAUTO', label: 'Youtube' },
-    { icon: Instagram, href: 'https://www.instagram.com/aliasauto.uz/', label: 'Instagram' },
+    { icon: Instagram, href: 'https://www.instagram.com/aliasauto_kr/', label: 'Instagram' },
     
   ];
 
